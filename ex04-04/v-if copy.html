@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+</head>
+<body>
+  <div id="app">
+      <h1>{{bFlag}}</h1>
+      <p v-if="bFlag > 0.5">0.5보다 큼!</p>
+      <p v-else>0.5보다 작음!</p>
+  </div>
+  <script>
+    let app = new Vue({
+      el: '#app',
+      data: {
+        // 랜덤값(0~1)을 발생시켜 0.5 보다 크면 ture, 아니면 false 값을 가짐
+        bFlag: Math.random()
+      }
+    })
+  </script>
+</body>
+</html>

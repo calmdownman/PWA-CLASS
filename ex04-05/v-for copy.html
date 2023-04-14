@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+</head>
+<body>
+  <div id="main">
+     <ul type="circle">
+        <li v-for="item in fruits">{{item.fruitName}}</li>
+     </ul>
+  </div>
+  <script>
+    var main = new Vue({
+      el: '#main',
+      data: {
+        fruits : [
+          {fruitName : 'Apple'},
+          {fruitName : 'Banana'},
+          {fruitName : 'Lemon'},
+        ]
+      }
+    })
+  </script>
+</body>
+</html>
