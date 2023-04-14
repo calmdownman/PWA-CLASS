@@ -9,7 +9,7 @@
 <body>
 <p>아래 박스에 이름을 입력하시면 나이가 출력됩니다.</p>
   <div id="main">
-    <input v-model:value="sMsg">
+    <input v-model:value="sMsg" placeholder="나이 입력">
     <template v-for="item in aPersons">
         <li v-if="item.name == sMsg"> {{item.age}}</p>
     </template>
@@ -19,7 +19,7 @@
       el: '#main',
       // 고객의 이름, 나이를 값으로 하는 JSON 데이터 정의
       data: {
-                sMsg:'나이 입력',
+                sMsg:'',
                 aPersons: [{
                         name: '홍길동',
                         age: 27
