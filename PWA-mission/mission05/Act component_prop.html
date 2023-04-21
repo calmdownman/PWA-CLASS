@@ -8,13 +8,41 @@
 </head>
 
 <body>
+ 
   <div id="app">
     <!-- 초기값(각각 1,10,100) 이 다른 세개의 심플 카운터 표시 -->
     <simple-counter startnumber="1"></simple-counter>
     <simple-counter startnumber="10"></simple-counter>
     <simple-counter startnumber="100"></simple-counter>
   </div>
-  
 </body>
+
+<script>
+  Vue.component('simple-counter',{
+    props :['startnumber'],
+    template :`
+        <button @click="fnIncCounter">
+          카운터 : {{ fnGetCounter }}
+        </button>`,
+    data : function() {
+      return {nCounter : parseInt(this.startnumber)}
+    },
+    computed : {
+      fnGetCounter() {
+          return this.nCounter
+      }
+    } ,
+    methods : {
+      fnIncCounter() {
+        this.nCounter +=1
+      }
+    }
+  })
+  var gApp = new Vue({
+    el : '#app',
+  })
+</script>
+
+
 
 </html>
