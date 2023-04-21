@@ -9,9 +9,10 @@
 <body>
 <p>아래 박스에 이름을 입력하시면 나이가 출력됩니다.</p>
   <div id="main">
-    <input v-model:value="sMsg" placeholder="나이 입력">
+    <input v-model:value="sMsg" placeholder="이름 입력">
     <template v-for="item in aPersons">
-        <li v-if="item.name == sMsg"> {{item.age}}</p>
+        <li v-if="item.name == sMsg"> {{item.age}}</li>
+        <li v-else> {{item.name}}</li>
     </template>
   </div>
   <script>
@@ -31,6 +32,10 @@
                     {
                         name: '김유신',
                         age: 40
+                    },
+                    {
+                        name: '김유신',
+                        age: 5
                     }
                 ]
             }
