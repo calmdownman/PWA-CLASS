@@ -23,7 +23,7 @@
     const store = new Vuex.Store({
         // count 값을 상태값으로 정의
         state: {
-            count:1,
+            count1:1,
             count2:1,
             nextTerm:0
         },
@@ -31,10 +31,10 @@
         mutations: {
             // 일반적인 함수 형식으로 count 상태값을 증가 시키도록 정의
             fnIncData: function (state) {
-                state.nextTerm = state.count + state.count2;
-                state.count = state.count2;
+                state.nextTerm = state.count1 + state.count2;
+                state.count1 = state.count2;
                 state.count2 = state.nextTerm;
-                return state.count
+                return state.count1
             },
             // 함수를 간단하게 1줄로 압축하여 => 연산자를 활용해 count 상태값을 감소 시키도록 정의
             fnDecData: state => state.count--

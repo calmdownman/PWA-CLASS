@@ -34,13 +34,13 @@
       },
       // 4. 데이터 값을 읽어다가 mustache에 바인딩하는 콤퓨티드 속성 정의
       computed: {
-        fnGetCounter: function () {
+        fnGetCounter() {
           return this.nCounter
         }
       },
       // 5. 버튼이 눌리면 이벤트 핸들러로 카운터 값 +1 증가하는 메서드 속성 정의
       methods: {
-        fnIncCounter: function () {
+        fnIncCounter() {
           this.nCounter++
         }
       }

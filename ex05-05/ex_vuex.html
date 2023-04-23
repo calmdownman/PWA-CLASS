@@ -32,16 +32,17 @@
                 return state.count++
             },
             // 함수를 간단하게 1줄로 압축하여 => 연산자를 활용해 count 상태값을 감소 시키도록 정의
-            fnDecData: state => state.count--
+            fnDecData(state) {
+                return state.count--
+            }
         },
         getters: {
             // 상태값을 반환함
-            fnGetData(state) {
-                return state.count;
-            },
+            fnGetData : state => state.count,
         },
         actions: {
-            // 상태값을 감소시키는 함수는 서버단에서 실행한다는 가정을 해봄. 따라서 비동기 실행으로 정의하기 위해 async를 사용하고 매개변수로 commit 객체 전달
+            // 상태값을 감소시키는 함수는 서버단에서 실행한다는 가정을 해봄. 따라서 비동기 실행으로 정의하기 위해 
+            // async를 사용하고 매개변수로 commit 객체 전달
             async fnDecData({
                 commit
             }, state) {
