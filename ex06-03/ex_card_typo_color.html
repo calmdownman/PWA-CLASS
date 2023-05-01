@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@3.x/css/materialdesignicons.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <div id="app">
+    <v-app>
+      <v-main>
+        <v-container>
+          <!-- 카드 UI 사용을 선언하는 v-card 엘리먼트 -->
+          <v-card max-width="400">
+            <!-- 카드 상단에 이미지를 배치시킴 -->
+            <v-img src="https://picsum.photos/id/1000/400/400" aspect-ratio="1"></v-img>
+            
+            <!-- 카드 중간에 텍스트를 배치시킴 -->
+            <v-card-text>
+              <div>
+                <!-- 제목의 타이포그래피 스타일을 title으로 설정-->
+                <!-- 하단의 margin 크기값을 1로 설정-->
+                <h2 class="title info--text mb-2">JNH Profile</h2>
+              안녕하십니까. 버추얼 컴퍼니에 웹프로그래머로 지원하게된 "JNH" 입니다. <br>
+              <h3>{{fnText}}</h3>
+              </div>
+            </v-card-text>
+
+            <!-- 카드 하단에 버튼을 배치시킴 -->
+            <v-card-actions>
+              <!-- 버튼색상은 붉은색으로 설정  -->
+              <v-btn @click="fnSchool" color="red lighten-2 yellow--text">학력</v-btn>
+              <!-- outline으로 버튼의 배경색을 없앰 -->
+              <v-btn @click="fnCareer" outlined color="orange">경력</v-btn>
+              <v-btn @click="fnEtc" color="#9C27B0" dark>특이사항</v-btn>
+            </v-card-actions>
+          </v-card>
+        </v-container>
+      </v-main>
+    </v-app>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+  <script>
+    new Vue({
+      el: '#app',
+      vuetify: new Vuetify(),
+      data() {
+        return {
+            sText : '테스트'
+        }
+      },
+      computed: {
+        fnText() {
+            return this.sText;
+        }
+      },
+      methods : {
+        fnSchool() {
+            return this.sText = "학력 : 명지전문대 학사 예정"
+        },
+        fnCareer() {
+            return this.sText = "경력 : 신입"
+        },
+        fnEtc() {
+            return this.sText = "특이사항 : 2022 학과 캡스톤경진대회 동상 / 2022 교내 캡스톤경진대회 대상"
+        }
+      }
+    })
+  </script>
+</body>
+
+</html>
