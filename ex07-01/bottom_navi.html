@@ -21,15 +21,15 @@
         <!-- 선택된 메뉴는 sSelect 데이터를 연동시켜 바인딩함 -->
         <v-bottom-navigation absolute v-model="sSelect" dark >
           <!-- 아이콘 버튼 3개를 표시함 -->
-          <v-btn text value="자전거">
+          <v-btn text value="1-자전거">
             자전거
             <v-icon>directions_bike</v-icon>
           </v-btn>
-          <v-btn text value="지하철">
+          <v-btn text value="2-지하철">
             지하철
             <v-icon>subway</v-icon>
           </v-btn>
-          <v-btn text value="버스">
+          <v-btn text value="3-버스">
             버스
             <v-icon>directions_bus</v-icon>
           </v-btn>
@@ -45,7 +45,7 @@
       el: '#app',
       vuetify: new Vuetify(),
       data: {
-        sSelect: '자전거'
+        sSelect: '2-지하철'
       }
     })
   </script>
