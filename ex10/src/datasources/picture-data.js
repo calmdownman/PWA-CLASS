@@ -1,69 +1,69 @@
 export default {
   aPictures: [{
     'id': 1,
-    'url': 'https://farm1.staticflickr.com/654/22663129542_e3df218c90_b.jpg',
-    'title': '청춘플랫폼_우수부스투표',
-    'info': '졸업작품 전시회에 출품한 작품 중에서 방문자들이 직접 우수 전시 부스를 투표로 선정하는 모습입니다.'
+    'url': 'https://ifh.cc/g/FRYBnr.jpg',
+    'title': '여수 빵바다',
+    'info': '여수의 밤은 밤바다, 낮은 빵바다라 할 수 있겠다. 빵과 커피를 먹으며 바라보는 바다의 정취가 일품이다.'
   },
   {
     'id': 2,
-    'url': 'https://farm1.staticflickr.com/739/22663128752_7b347e01a9_b.jpg',
-    'title': '전시장모습',
-    'info': '전시가 열렸던 예술의 전당 전시실 안의 모습입니다. '
+    'url': 'https://ifh.cc/g/zOpsgl.jpg',
+    'title': '여수십미',
+    'info': '조수 통닭천사의 코로나19 투병으로 대타 주호민 작가님과 함께 한 여수 여행. '
   },
   {
     'id': 3,
-    'url': 'https://farm1.staticflickr.com/674/22055529403_aeeb5fc371_b.jpg',
-    'title': 'pc실습실',
-    'info': '윈도우OS 환경에서 다양한 멀티미디어디자인 S/W를 실습하는 공간입니다.'
+    'url': 'https://ifh.cc/g/qAL3xy.png',
+    'title': '여행은 가출',
+    'info': '여행은 왜 할까? 여행을 하면서 생소한 것을 봤을 때 경계심으로 인해 몸이 긴장되는데..'
   },
   {
     'id': 4,
-    'url': 'https://farm1.staticflickr.com/706/22650669476_d8bf33c153_b.jpg',
-    'title': '졸업작품전시회 주제',
-    'info': '청춘 플랫폼이라는 주제로 젊은 열정이 펼쳐지는 무대가 마련되었습니다.'
+    'url': 'https://ifh.cc/g/4FTXC5.png',
+    'title': '인생과 쇼트트랙',
+    'info': '짧은 시간 안에 전술을 짜야하는 쇼트트랙이 인생과 닮았다고 생각했다.'
   },
   {
     'id': 5,
-    'url': 'https://farm1.staticflickr.com/677/22055530223_91e3f73227_b.jpg',
-    'title': '명함디자인',
-    'info': '자신의 미래 모습을 담은 명함을 직접 디자인하고 인쇄 제작하여 전시한 모습입니다.'
+    'url': 'https://ifh.cc/g/BNpGfw.png',
+    'title': '2222년 씨름',
+    'info': '우리 민족의 전통 씨름은 나의 균형은 유지하면서 상대방의 균형을 어그러트리는 스포츠이다.'
   },
   {
     'id': 6,
-    'url': 'https://farm1.staticflickr.com/777/22650669326_e180cd84ca_b.jpg',
-    'title': '전시_방명록',
-    'info': '전시장을 방문한 관객들의 다양한 소감을 방명록의 기록으로 남겨졌습니다.'
+    'url': 'https://ifh.cc/g/n772sB.png',
+    'title': 'I LOVE ULSAN',
+    'info': '야생의 너굴맨에게선 사진으로만 접했던 라쿤의 팬시함과는 다른 궤의 에너지가 느껴진다.'
   },
   {
     'id': 7,
-    'url': 'https://farm1.staticflickr.com/759/22687855771_92dc8b3245_b.jpg',
-    'title': '매킨토시 실습실',
-    'info': '맥OS 환경에서 멀티미디어디자인 관련 S/W를 사용하여 작업하기 위한 맥 실습실입니다.'
+    'url': 'https://ifh.cc/g/vr1oLv.png',
+    'title': 'M之',
+    'info': '얼핏 보면 아무 생각 없이 지내는 것 같지만 가까이 지켜보면 자신의 인생에 대해 진중하게..'
   },
   {
     'id': 8,
-    'url': 'https://farm6.staticflickr.com/5646/22053918354_ee031eae46_b.jpg',
-    'title': '캘리그래피_디자인',
-    'info': '학생들이 직접 디자인한 아날로그 정서의 캘리그래피 작품입니다.'
+    'url': 'https://ifh.cc/g/y2n8S9.png',
+    'title': '간장게장',
+    'info': '간장게장 간장게장 노래를 부르던 주호민 조수님이 게장집을 나오며 나지막히 뱉은 솔직한 고백.'
   },
   {
     'id': 9,
-    'url': 'https://farm1.staticflickr.com/762/22687856291_963df9b90a_b.jpg',
-    'title': '실습실복도',
-    'info': '전공존에 따라 색상이 그룹으로 연결된 실습실 복도 모습입니다.'
+    'url': 'https://ifh.cc/g/OYq5Nk.png',
+    'title': '손톱 먹은 아이돌 1',
+    'info': '강남 K-POP 아이돌 편은 연작으로 구상해 보았다. 평소 자신이 아이브 리즈 닮았다는..'
   },
   {
     'id': 10,
-    'url': 'https://farm1.staticflickr.com/766/22055529593_c162dc3143_b.jpg',
-    'title': '인터뷰_촬영',
-    'info': '졸업작품을 준비한 학생들의 과정을 인터뷰의 기록으로 남기는 모습입니다. '
+    'url': 'https://ifh.cc/g/hSzRH0.png',
+    'title': '손톱 먹은 아이돌 2',
+    'info': '아이돌 메이크업을 통해 외모 자신감이 차오른 통닭천사를 차량 이동중에 그렸다.'
   },
   {
     'id': 11,
-    'url': 'https://farm6.staticflickr.com/5775/22053918014_f0e0873b7c_b.jpg',
-    'title': '전시_메모',
-    'info': '관객들이 전시를 보면서 느낀 점을 간단한 메모의 글로 남긴 흔적입니다.'
+    'url': 'https://ifh.cc/g/MGLPCG.png',
+    'title': '인스타 감성',
+    'info': '사람들이 추구하는 인스타 감성이란 무엇일까 고민했다.'
   },
   {
     'id': 12,

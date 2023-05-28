@@ -3,7 +3,7 @@
 		<!-- 툴바에 제목, 버튼을 삽입 -->
 		<v-app-bar app color="blue-grey" dark fixed>
 			<v-app-bar-nav-icon></v-app-bar-nav-icon>
-			<v-toolbar-title>사진 갤러리</v-toolbar-title>
+			<v-toolbar-title>2023531018 조남형 10장 갤러리앱 리포트</v-toolbar-title>
 			<v-spacer></v-spacer>
 			<v-btn icon>
 				<v-icon>more_vert</v-icon>
