@@ -24,8 +24,8 @@
                 <!-- 제목의 타이포그래피 스타일을 title으로 설정-->
                 <!-- 하단의 margin 크기값을 1로 설정-->
                 <h2 class="title info--text mb-2">JNH Profile</h2>
-              안녕하십니까. 버추얼 컴퍼니에 웹프로그래머로 지원하게된 "JNH" 입니다. <br>
-              <h3>{{fnText}}</h3>
+                안녕하십니까. 버추얼 컴퍼니에 웹프로그래머로 지원하게된 "JNH" 입니다. <br><br>
+                <h3>{{fnText}}</h3>
               </div>
             </v-card-text>
 
@@ -49,11 +49,10 @@
     new Vue({
       el: '#app',
       vuetify: new Vuetify(),
-      data() {
-        return {
-            sText : '테스트'
-        }
-      },
+      data : {
+        sText : '아래 버튼 클릭'
+      }
+      ,
       computed: {
         fnText() {
             return this.sText;
