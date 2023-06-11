@@ -14,7 +14,7 @@
 			<v-container>
 				<v-row>
 					<!-- 기기별로 그리드의 크기 설정-->
-					<v-col cols="12" sm="6" md="4" lg="3" xl="2" v-for="item in this.aPictures" :key=item.key>
+					<v-col cols="12" sm="6" md="4" lg="3" xl="2" v-for="item in this.aPictures" :key="item.key">
 						<!-- 카드 UI에 사진 담아내기-->
 						<v-card height="330px">
 							<v-img :src="item.url" height="200px">
